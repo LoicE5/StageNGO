@@ -82,15 +82,15 @@
                                 <div class="ctn2">
                                     <div class="ctn3">
                                         <h2>Loïc</h2></a>
-                                        <h3>Développeur back</h3>
+                                        <h3>Développeur full-stack</h3>
                                     </div>
                                     
                                 <img src="images/avatar_loic.svg" alt="">
                                 </div>
 
                                     <div class="cv">
-                                        <a class="cvnum" href="https://perso-etudiant.u-pem.fr/~letien04/CV%20Num%c3%a9rique/" target="_blank">CV numérique</a>
-                                    <a class="cvpdf"href="" target="_blank">CV PDF</a>
+                                        <a class="cvnum" href="http://perso-etudiant.u-pem.fr/~letien04/web_resume/" target="_blank">CV numérique</a>
+                                    <a class="cvpdf" href="http://perso-etudiant.u-pem.fr/~letien04/Loic_Etienne_Resume.pdf" target="_blank">CV PDF</a>
                                     </div>
                                 </div>
                                 </a>
