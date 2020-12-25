@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "CreamPeach";
+    src: url("fonts/CreamPeach/CreamPeach.woff2") format("woff2"), 
+    url("fonts/CreamPeach/CreamPeach.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Delius";
+  
+    src: url("font/Delius/Delius.woff") format("woff"), /* Modern Browsers */
+    url("font/Delius/Delius.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+:root {
+    --body-color: #202745;
+    --tab-1-color: #49D7A4;
+    --tab-2-color: #A7F9D5;
+    --tab-3-color: #F7EA89;
+    --tab-4-color: #ECCB99;
+    --tab-5-color: #FC9078;
+    --tab-6-color: #E7354F;
+    --main-height-inner: 90%;
+    --main-shadow: 8px 8px 0px #aaaaaa;
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: 'Delius'; */
+    background-color: var(--body-color);
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    height: 100vh;
+    z-index: -2;
+    position: relative;
+}
+
+h1{
+    font-family: "CreamPeach";
+}
+
+p{
+    font-family: "CreamPeach";
+}
+
+
+.conteneur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.couverture {
+    width: 42.5vw;
+    height: 95vh;
+    margin: auto;
+    background-color: var(--tab-1-color);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+}
+
+.couverture h1 {
+    color: white;
+    font-size: 4rem;
+    width: max-content;
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+
+.couverture p {
+    margin-left: 5%;
+    font-size: 2rem;
+    text-align: left;
+    color: white;
+    max-width: 70%;
+}
+
+nav {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 95%;
+    margin-right: 0;
+    width: 100px
+}
+
+.nav1 {
+    left: -1.3vw !important;
+    top: 2.5%;
+} 
+
+.nav2 {
+    right: -3.5vw;
+    top: 2.5%;
+    z-index: -1;
+} 
+
+/* Fonctionne */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    display: block;
+    width: 100%;
+    height: 16.6%;
+    text-align: center;
+    border-radius: 15px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.nav2 a {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.nav2 a:first-child {
+    background-color: var(--tab-1-color);
+}
+.nav2 a:first-child:hover {
+    background-color: rgb(49, 145, 109);
+}
+
+.nav2 a:nth-child(2) {
+    background-color: var(--tab-2-color);
+}
+.nav2 a:nth-child(2):hover {
+    background-color: rgb(117, 175, 149);
+}
+
+.nav2 a:nth-child(3) {
+    background-color: var(--tab-3-color);
+}
+.nav2 a:nth-child(3):hover {
+    background-color: rgb(148, 139, 79);
+}
+
+.nav2 a:nth-child(4) {
+    background-color: var(--tab-4-color);
+}
+.nav2 a:nth-child(4):hover {
+    background-color: rgb(151, 131, 100);
+}
+
+.nav2 a:nth-child(5) {
+    background-color: var(--tab-5-color);
+}
+.nav2 a:nth-child(5):hover {
+    background-color: rgb(145, 84, 70);
+}
+
+.nav2 a:nth-child(6) {
+    background-color: var(--tab-6-color);
+}
+nav a:nth-child(6):hover {
+    background-color: rgb(150, 34, 51);
+}
