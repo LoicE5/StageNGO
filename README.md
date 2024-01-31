@@ -22,4 +22,4 @@ The website have been realized using HTML, CSS, JavaScript, PHP & MySQL technolo
 
 ### Links
 
-**[Get to the project here !](https://perso-etudiant.u-pem.fr/~letien04/StageNGO/)**
+*The project is no longer online :(*
